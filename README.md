@@ -54,7 +54,7 @@ Endpoints
 The API provides the following endpoints:
 
 POST /api/sale: Create a new sale document.
-**
+
 Example of Postman testing:
 In this example we do POST and PUT(update) to our table
 ![צילום מסך 2024-03-04 012638](https://github.com/ilanBitan/GoodsProject/assets/62257681/47c6a749-0071-4b0e-b9dc-2ca0e200a9f1)
