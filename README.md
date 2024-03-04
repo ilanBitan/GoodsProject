@@ -102,3 +102,7 @@ To obtain the SQL script from the provided source code:
 - Save the generated SQL script to a file or copy its contents for execution against your database server.
 
 By following these steps, you can obtain the SQL script from the source code and set up the database schema and initial data required for the application.
+
+## Credits
+
+This project was developed by Ilan Bitan.
