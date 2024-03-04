@@ -1,0 +1,36 @@
+﻿@model GoodsProject.Models.BusinessPartner
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>BusinessPartner</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BPName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BPName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BPType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BPType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.BPCode">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
